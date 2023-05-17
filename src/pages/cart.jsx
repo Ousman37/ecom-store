@@ -35,7 +35,10 @@ const CartPage = () => {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
     padding: 2rem;
+    box-sizing: border-box;
+    justify-content: space-between; // Added this line
   `;
 
   const CartList = styled.ul`
